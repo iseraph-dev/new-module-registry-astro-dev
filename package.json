@@ -1,0 +1,17 @@
+{
+  "name": "nmr-astro-repro",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.14.0",
+  "scripts": {
+    "dev": "astro dev --port 4391 --host 127.0.0.1",
+    "dev:new": "NMR=1 astro dev --port 4391 --host 127.0.0.1",
+    "probe": "node probe.mjs"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "15.0.0-beta.2",
+    "astro": "7.4.1",
+    "cf": "1.0.0-beta.19",
+    "miniflare": "5.20261012.1-beta"
+  }
+}
